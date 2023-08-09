@@ -58,3 +58,33 @@ async function loadCharacters(url) {
         console.log(error)
     }
 }
+
+async function loadNextPage() {
+    if (!currentPagerUrl) return
+
+    try {
+        const response = await fetch(currentPagerUrl)
+        const responseJson = await response.json()
+
+        await loadCharacters(responseJson.next)
+
+    } catch (error) {
+        console.log(error)
+        alert('Erro ao carregar a próxima página')
+    }
+}
+
+async function loadPreviousPage() {
+    if (!currentPagerUrl) return
+
+    try {
+        const response = await fetch(currentPagerUrl)
+        const responseJson = await response.json()
+
+        await loadCharacters(responseJson.previous)
+
+    } catch (error) {
+        console.log(error)
+        alert('Erro ao carregar a página anterior')
+    }
+}
