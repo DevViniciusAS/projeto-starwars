@@ -210,8 +210,8 @@ footer {
     }
 
     .modal-content {
-        width: 80vw;
-        height: 80vh;
+        width: 500px;
+        height: 300px;
         display: block;
         align-items: center;
         row-gap: 40px;
