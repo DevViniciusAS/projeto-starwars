@@ -210,8 +210,17 @@ footer {
     }
 
     .modal-content {
-        width: 30vw;
-        height: 40vh;
+        width: 70vw;
+        height: 60vh;
+        display: block;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .character-image {
+        display: block;
+        float: left;
+        padding: 40px;
     }
 }
 
