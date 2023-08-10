@@ -204,33 +204,6 @@ footer {
     color: gold;
 }
 
-@media screen and (min-width: 760px) and (max-width: 992px) {
-    h2 {
-        width: 550px;
-    }
-
-    .modal-content {
-        width: 500px;
-        height: 300px;
-        display: block;
-        align-items: center;
-        row-gap: 40px;
-    }
-
-    .character-details {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 20px;
-    }
-
-    .character-image {
-        display: block;
-        float: left;
-        padding: 40px;
-    }
-}
-
 @media screen and (max-width:760px) {
     header {
         margin: 10px;
@@ -267,3 +240,31 @@ footer {
         height: 100px;
     }
 }
+
+@media screen and (min-width: 760px) and (max-width: 992px) {
+    h2 {
+        width: 550px;
+    }
+
+    .modal-content {
+        width: 500px;
+        height: 300px;
+        display: block;
+        align-items: center;
+        row-gap: 40px;
+    }
+
+    .character-details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .character-image {
+        display: block;
+        float: left;
+        padding: 40px;
+    }
+}
+
