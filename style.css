@@ -179,7 +179,7 @@ footer {
 
 .modal-content {
     width: 25vw;
-    height: 70vh;
+    height: 50vh;
     background-color: #0d0d0d;
     border-radius: 12px;
     display: flex;
@@ -231,13 +231,17 @@ footer {
     }
 
     .modal-content {
-        width: 45vw;
-        height: 70vh;
+        width: 160px;
+        height: 400px;
     }
 
     .character-image {
         width: 100px;
         height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
     }
 }
 
