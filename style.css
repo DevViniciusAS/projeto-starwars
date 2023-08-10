@@ -210,11 +210,18 @@ footer {
     }
 
     .modal-content {
-        width: 70vw;
-        height: 60vh;
+        width: 80vw;
+        height: 30vh;
         display: block;
         align-items: center;
         row-gap: 40px;
+    }
+
+    .character-details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
     }
 
     .character-image {
@@ -224,7 +231,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     header {
         margin: 10px;
     }
